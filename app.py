@@ -21,7 +21,7 @@ def give_color_to_seg_img(seg, n_classes=13):
 # Load the model
 @st.cache(allow_output_mutation=True)
 def load_my_model():
-    return tf.keras.models.load_model('VGG19_BAIK.h5')
+    return tf.keras.models.load_model('https://www.dropbox.com/scl/fi/73892qrzamdneefs6l49u/VGG19_BAIK.h5?rlkey=9rzj6afci18fmh6l4afg5esew&dl=1')
 
 model = load_my_model()
 

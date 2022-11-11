@@ -21,7 +21,7 @@ def give_color_to_seg_img(seg, n_classes=13):
 # Load the model
 @st.cache(allow_output_mutation=True)
 def load_my_model():
-    return load_model('model_vgg19.h5')
+    return load_model('VGG19_BAIK.h5')
 
 model = load_my_model()
 
